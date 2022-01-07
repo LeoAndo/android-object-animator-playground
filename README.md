@@ -13,3 +13,6 @@ https://developer.android.com/guide/topics/graphics/prop-animation?hl=ja<br>
 # capture OS 12
 
 <img src="https://github.com/LeoAndo/android-object-animator-playgrounds/blob/main/pixcel5_os12_capture.gif" width="320"/>
+
+# refs
+https://github.com/LeoAndo/droidkaigi2021-memo/issues/19#issuecomment-950553349<br>
