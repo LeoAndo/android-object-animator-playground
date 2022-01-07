@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/targetLayout"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#6AF06292">
+
+        <TextView
+            android:id="@+id/targetView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Target View" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Interpolator" />
+
+    <Spinner
+        android:id="@+id/spinnerInterpolator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:entries="@array/interpolatorEntries" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Repeat Mode" />
+
+    <Spinner
+        android:id="@+id/spinnerRepeatMode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:entries="@array/repeatEntries" />
+
+    <Button
+        android:id="@+id/btnEndAnimation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="End Animation"
+        android:textAllCaps="false" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnRotation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rotation"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnAlpha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alpha"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnTranslation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Translation"
+            android:textAllCaps="false" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnScale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Scale"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnTextColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="textColor"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnMultipleProperties"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="multiple properties"
+            android:textAllCaps="false" />
+    </LinearLayout>
+
+</LinearLayout>
