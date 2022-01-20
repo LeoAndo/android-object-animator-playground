@@ -1,10 +1,8 @@
 # Overview
 
-Playground for ObjectAnimator.<br>
+Playground for ObjectAnimator<br>
 https://developer.android.com/reference/android/animation/ObjectAnimator<br>
 https://developer.android.com/guide/topics/graphics/prop-animation?hl=ja<br>
-
-
 
 # Development environment
 
